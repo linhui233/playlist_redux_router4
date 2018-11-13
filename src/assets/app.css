@@ -1,0 +1,151 @@
+
+#root{
+    padding-top: 30px;
+}
+body{
+    background: #f1f1f1;
+}
+.App{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin: 0 auto;
+    font-family: 'Microsoft Yahei','微软雅黑';
+    background: #fff;
+}
+.home{
+    position: relative;
+}
+.main{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+body,tr,td,button,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+.title{
+    margin-bottom: 10px;
+    position: relative;
+}
+.header{
+    text-align: center;
+    font-size: 0;
+}
+.header h2{
+    font-size: 24px;
+}
+.header-input{
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+.add-music{
+    display: inline-block;
+    vertical-align: middle;
+    height: 35px;
+    padding: 5px;
+    background: #ccc;
+    border: none;
+    cursor: pointer;
+}
+header{
+    text-align: center;
+}
+table{
+    font-size: 14px;
+}
+table td{
+    text-align: center;
+}
+tbody{
+    width: 100%;
+}
+.main tr{
+    height: 30px;
+}
+.main td{
+    border-bottom: 1px solid #eee;
+}
+.main tbody tr:hover{
+    background: rgb(158, 208, 236);
+}
+
+.tr-top{
+    font-size: 16px;
+    background: #f1f1f1;
+    height: 30px;
+}
+.tr-top th, .tbody td{
+    width: 100px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.info{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.align-right{
+    font-size: 16px;
+    color: #ccc;
+    float: right;
+    margin-right: 20px;
+}
+.btns{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 50px;
+    margin-top: 10px;
+}
+.btns button{
+    height: 30px;
+    width: 80px;
+    margin-right: 20px;
+}
+.btns a{
+    margin-top: 5px;
+    font-size: 14px;
+}
+.main tr:hover {
+    background: #eafdfc;
+}
+.main .collected {
+    background: #fcece4;
+}
+.main .colleced:hover {
+    background: #fee3d5;
+}
+.main .selected {
+    background: #f6fccf;
+}
+.main .selected:hover {
+    background: #f6febe;
+}
+.delete{
+    font-size: 14px;
+    color: blueviolet;
+    cursor: pointer;
+}
+.addLink{
+    position: absolute;
+    right: 50px;
+    top: 0;
+
+}
